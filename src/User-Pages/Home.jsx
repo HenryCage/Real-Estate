@@ -1,19 +1,13 @@
-import { Link } from "react-router-dom"
+import Hero from "../Components/Home/Hero"
+import Card from "../Components/Home/Card"
+
 
 const Home = () => {
+
     return (
         <>
-          <h1>Homepage</h1>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/admin">Admin</Link>
-              </li>
-            </ul>
-          </nav>
+          <Hero />
+          <Card /> 
         </>
     )
 }
