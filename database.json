@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Two Bedroom Apartment",
+      "description": "A beautiful two bedroom apartment located in the heart of the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=870&auto=format&fit=crop",
+      "location": "Ikeja, Lagos",
+      "price": "₦ 1,500,000"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Penthouse",
+      "description": "A modern penthouse with an amazing city view, fully furnished.",
+      "imageUrl": "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=870&auto=format&fit=crop",
+      "location": "Victoria Island, Lagos",
+      "price": "₦ 5,000,000"
+    },
+    {
+      "id": 3,
+      "title": "Cozy Studio Apartment",
+      "description": "Affordable studio apartment perfect for young professionals.",
+      "imageUrl": "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=870&auto=format&fit=crop",
+      "location": "Yaba, Lagos",
+      "price": "₦ 700,000"
+    },
+    {
+      "id": 4,
+      "title": "Family Duplex",
+      "description": "Spacious 4-bedroom duplex with parking space and private garden.",
+      "imageUrl": "https://images.unsplash.com/photo-1599423300746-b62533397364?q=80&w=870&auto=format&fit=crop",
+      "location": "Lekki Phase 1, Lagos",
+      "price": "₦ 3,200,000"
+    },
+    {
+      "id": 5,
+      "title": "Beachfront Villa",
+      "description": "Luxury villa facing the beach with a swimming pool and open lounge.",
+      "imageUrl": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=870&auto=format&fit=crop",
+      "location": "Oniru Beach, Lagos",
+      "price": "₦ 10,000,000"
+    },
+    {
+      "id": 6,
+      "title": "Modern Bungalow",
+      "description": "Newly built 3-bedroom bungalow in a serene environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=870&auto=format&fit=crop",
+      "location": "Magodo, Lagos",
+      "price": "₦ 2,400,000"
+    },
+    {
+      "id": 7,
+      "title": "Serviced Apartment",
+      "description": "Fully serviced 2-bedroom apartment with 24/7 power and security.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585153837-1c3e1c5f9a9e?q=80&w=870&auto=format&fit=crop",
+      "location": "Ikoyi, Lagos",
+      "price": "₦ 3,800,000"
+    },
+    {
+      "id": 8,
+      "title": "Mini Flat",
+      "description": "One-bedroom mini flat suitable for singles and young couples.",
+      "imageUrl": "https://images.unsplash.com/photo-1617093727343-b68f36e2e7df?q=80&w=870&auto=format&fit=crop",
+      "location": "Ogba, Lagos",
+      "price": "₦ 600,000"
+    },
+    {
+      "id": 9,
+      "title": "Luxury Terrace House",
+      "description": "Stylish 3-bedroom terrace with smart home features and balcony view.",
+      "imageUrl": "https://images.unsplash.com/photo-1600607687206-bd3cf358da5c?q=80&w=870&auto=format&fit=crop",
+      "location": "Chevron Drive, Lekki",
+      "price": "₦ 4,500,000"
+    },
+    {
+      "id": 10,
+      "title": "Student Hostel Apartment",
+      "description": "Affordable shared apartment close to the university campus.",
+      "imageUrl": "https://images.unsplash.com/photo-1613977257360-4b3e26e9aa0c?q=80&w=870&auto=format&fit=crop",
+      "location": "Unilag, Akoka",
+      "price": "₦ 300,000"
+    },
+    {
+      "id": 11,
+      "title": "Detached Duplex with Pool",
+      "description": "5-bedroom fully detached duplex with private swimming pool and modern kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=870&auto=format&fit=crop",
+      "location": "Ajah, Lagos",
+      "price": "₦ 7,200,000"
+    },
+    {
+      "id": 12,
+      "title": "Classic Townhouse",
+      "description": "Elegant 3-bedroom townhouse with spacious living room and rooftop lounge.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-7171b2e83f0e?q=80&w=870&auto=format&fit=crop",
+      "location": "Surulere, Lagos",
+      "price": "₦ 3,000,000"
+    },
+    {
+      "id": 13,
+      "title": "Luxury High-Rise Apartment",
+      "description": "Modern high-rise apartment with gym, elevator access, and city skyline view.",
+      "imageUrl": "https://images.unsplash.com/photo-1604014237744-6ce3ad3a9111?q=80&w=870&auto=format&fit=crop",
+      "location": "Eko Atlantic, Lagos",
+      "price": "₦ 6,500,000"
+    },
+    {
+      "id": 14,
+      "title": "Compact Single Room",
+      "description": "Budget-friendly self-contained room with a kitchenette and bathroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1600607687126-4e2e5bcb5f58?q=80&w=870&auto=format&fit=crop",
+      "location": "Bariga, Lagos",
+      "price": "₦ 250,000"
+    },
+    {
+      "id": 15,
+      "title": "Modern Smart Home",
+      "description": "Fully automated 4-bedroom smart home with voice-controlled lighting and CCTV.",
+      "imageUrl": "https://images.unsplash.com/photo-1599427303058-f04e6d46f98c?q=80&w=870&auto=format&fit=crop",
+      "location": "Banana Island, Lagos",
+      "price": "₦ 15,000,000"
+    }
+  ]
+}
