@@ -1,0 +1,78 @@
+/* FAQ Section Wrapper */
+.faq-section {
+  background: linear-gradient(135deg, #0a0f2c, #1b1f4a); /* dark background */
+  padding: 80px 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Title */
+.faq-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+/* FAQ List (white card container) */
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Individual FAQ Item */
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 18px 0;
+}
+
+/* Question Row */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #0d6efd;
+}
+
+/* Plus/Minus Icon */
+.faq-icon {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+/* Answer Section (smooth animation) */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.35s ease;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.faq-answer.show {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 12px;
+}
