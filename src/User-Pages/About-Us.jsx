@@ -1,5 +1,8 @@
- import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+
+
 
 const AboutUs = () => {
   const [team, setTeam] = useState([]);
@@ -238,22 +241,24 @@ const AboutUs = () => {
             Whether you’re looking to buy, invest, or explore a better way to
             live — let’s go far together.
           </p>
-          <button
-            style={{
-              padding: "12px 24px",
-              fontSize: "16px",
-              border: "none",
-              borderRadius: "8px",
-              background: "#e63946",
-              color: "#fff",
-              cursor: "pointer",
-              transition: "background 0.3s ease",
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = "#d62839")}
-            onMouseLeave={(e) => (e.currentTarget.style.background = "#e63946")}
-          >
-            Contact Us
-          </button>
+          <Link to='/contact'>
+            <button
+              style={{
+                padding: "12px 24px",
+                fontSize: "16px",
+                border: "none",
+                borderRadius: "8px",
+                background: "#e63946",
+                color: "#fff",
+                cursor: "pointer",
+                transition: "background 0.3s ease",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "#d62839")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "#e63946")}
+            >
+              Contact Us
+            </button>
+          </Link>
         </section>
       </div>
     </section>
