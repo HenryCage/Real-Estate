@@ -1,0 +1,19 @@
+.welcome-admin {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: right;
+  padding: 0 1rem;
+  color: #2c3e50; /* Darker shade */
+}
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 2rem;
+}
