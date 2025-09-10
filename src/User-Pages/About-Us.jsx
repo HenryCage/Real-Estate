@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/AboutUs.css";
-import teamMembers from "../data/team";
+import "../User-Pages/style/About-Us.css";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const AboutUs = () => {
