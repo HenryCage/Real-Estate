@@ -7,11 +7,13 @@ import AddPosts from './Admin-Pages/Add-posts'
 import AboutUs from "./User-Pages/About-Us";
 import EditPost from "./Admin-Pages/Admin-Components/editPosts";
 import ViewPosts from "./Admin-Pages/View-posts";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
