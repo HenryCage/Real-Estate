@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -6,18 +7,18 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">MyLogo</div>
+      <div className="logo">
+        <Link to="/">MyLogo</Link>
+      </div>
       {/* <div class="nav-wrapper">
   <div class="nav-inner"> */}
      <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <a href="/">ABOUT US</a>
-        <a href="/about">PROJECTS</a>
-        <a href="/projects">BLOG</a>
-        <a href="/projects">MY ESTATE</a>
-        <a href="/contact">CONTACT US</a>
+        <Link to="/about">ABOUT US</Link>
+        <Link to="/projects">PROJECTS</Link>
+        <Link to="/blog">BLOG</Link>
+        <Link to="/contact">CONTACT US</Link>
       </div>
  
-      
      <div className="call">
         <a href="tel:+2349157509505">CALL +234 915 7509 505</a>
         </div>

@@ -15,16 +15,15 @@
   padding: 0 1rem;
   position: sticky;
   top: 0;
-  width: 97%;
+  width: 100%;
   z-index: 1000;
 }
 
 .logo {
-   /* margin-left: 0px; */
+  text-decoration: none;
   font-size: 1.5rem;
   color: var(--link-color);
   font-weight: bold;
-  /* background-color: red; */
   margin-right: 0;
 }
 
@@ -45,6 +44,7 @@
 .nav-links{
     display: none;
     width: 600px;
+    text-decoration: none;
    /* max-height: 0; */
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;

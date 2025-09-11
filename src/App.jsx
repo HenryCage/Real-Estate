@@ -5,11 +5,13 @@ import Dashboard from './Admin-Pages/dashboard'
 import Contact from './User-Pages/Contact/Contact';
 import AddPosts from './Admin-Pages/add-posts'
 import AboutUs from "./User-Pages/About-Us";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
