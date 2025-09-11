@@ -8,8 +8,7 @@ const Dashboard = () => {
             <div className="dashboard-links">
                 <p>
                     <Link to = '/admin/add-posts' className="dashboard-link">Add Posts</Link>
-                    <Link to = '#' className="dashboard-link"> View Posts</Link>
-                    <Link to = '#' className="dashboard-link"> Manage Posts</Link>
+                    <Link to = '/admin/view-posts' className="dashboard-link"> View Posts</Link>
                 </p>
             </div>
         </div>
