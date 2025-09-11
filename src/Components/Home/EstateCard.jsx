@@ -14,5 +14,5 @@ const EstateCard = ({ post }) => {
         </>
     )
 }
-
+ 
 export default EstateCard

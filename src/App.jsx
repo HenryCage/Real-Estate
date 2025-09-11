@@ -16,7 +16,6 @@ const App = () => {
     <>
       <Router>
         <Main />
-        
       </Router>
     </>
   )
@@ -38,14 +37,10 @@ const Main = () => {
             <Route path="view-posts" element={<ViewPosts />} />
             <Route path="edit-posts/:postId" element={<EditPost />} />
           </Route>
-          <Route>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
-       {!isAdminRoute && <Footer />}
+        {!isAdminRoute && <Footer />}
     </>
   )
 }
