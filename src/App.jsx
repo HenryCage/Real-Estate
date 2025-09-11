@@ -9,22 +9,26 @@ import EditPost from "./Admin-Pages/Admin-Components/editPosts";
 import ViewPosts from "./Admin-Pages/View-posts";
 import Footer from "./User-Pages/Footer/Footer";
 import Navbar from "./Components/Navbar";
+import Projects from "./User-Pages/Projects/Project";
 
 const App = () => {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
-
           <Route path='/admin' element={<AdminLayout />} >
             <Route index element={<Dashboard />} />
             <Route path="add-posts" element={<AddPosts />} />
             <Route path="view-posts" element={<ViewPosts />} />
             <Route path="edit-posts/:postId" element={<EditPost />} />
           </Route>
-          <Route path="/contact" element={<Contact />} />
+          <Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
         </Routes>
         <Footer />
       </Router>
