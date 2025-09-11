@@ -14,7 +14,7 @@ const AddPosts = () => {
         const newPost = {
             title,
             description,
-            price,
+            price: Number(price),
             location,
             imageUrl
         };
