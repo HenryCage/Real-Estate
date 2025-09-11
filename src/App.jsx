@@ -5,6 +5,7 @@ import Dashboard from './Admin-Pages/dashboard'
 import Contact from './User-Pages/Contact/Contact';
 import AddPosts from './Admin-Pages/add-posts'
 import AboutUs from "./User-Pages/About-Us";
+import PropertyDetail from "./User-Pages/Details/propertydetail"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/properrties/:id" element={<PropertyDetail />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path='/admin' element={<AdminLayout />} >
             <Route index element={<Dashboard />} />
