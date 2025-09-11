@@ -9,6 +9,13 @@
     background-repeat: none;
     background-size: cover;
     height: 35rem;
+}
+
+.opacity{
+    height: 100%;
+    width: 100%;
+    background: #00000061;
+    
     display: flex;
     justify-content: center;
     align-items: center;

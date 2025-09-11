@@ -9,13 +9,13 @@ import EditPost from "./Admin-Pages/Admin-Components/editPosts";
 import ViewPosts from "./Admin-Pages/View-posts";
 import Footer from "./User-Pages/Footer/Footer";
 import Navbar from "./Components/Navbar";
+import Projects from "./User-Pages/Projects/Project";
 
 const App = () => {
   return (
     <>
       <Router>
         <Main />
-        <Footer />
       </Router>
     </>
   )
@@ -38,7 +38,9 @@ const Main = () => {
             <Route path="edit-posts/:postId" element={<EditPost />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
+        {!isAdminRoute && <Footer />}
     </>
   )
 }

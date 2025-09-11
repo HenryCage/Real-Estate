@@ -4,7 +4,9 @@ const Hero = () => {
     return (
         <div>
            <div className="hero-image">
-            <h1 style={{color: 'white'}}>Welcome to Group 1 Real estate</h1>
+            <div className="opacity">
+                <h1 style={{color: 'white'}}>Welcome to Group 1 Real estate</h1>
+            </div>
            </div>
 
            <section className="welcome-section">
