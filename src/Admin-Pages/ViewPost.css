@@ -1,0 +1,47 @@
+.houses-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.postss {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.post-image {
+    width: 100%;
+    max-width: 300px; /* medium size */
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.button-group button {
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.button-group .edit-button {
+    background-color: skyblue;
+}
+
+.button-group .delete-button {
+    background-color: tomato;
+}
