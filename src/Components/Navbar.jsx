@@ -13,7 +13,8 @@ const Navbar = () => {
       {/* <div class="nav-wrapper">
   <div class="nav-inner"> */}
      <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-       <Link to="/home">Home</Link>
+       <Link to="/">HOME</Link>
+       <Link to="/admin">MY ADMIN</Link>
         <Link to="/about">ABOUT US</Link>
         <Link to="/properties">PROJECTS</Link>
         <Link to="/contact">CONTACT US</Link>
