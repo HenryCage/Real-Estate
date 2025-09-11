@@ -15,8 +15,23 @@ const App = () => {
   return (
     <>
       <Router>
-        <Navbar />
-        <Routes>
+        <Main />
+        
+      </Router>
+    </>
+  )
+}
+
+const Main = () => {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith('/admin');
+
+  return (
+    <>
+      {!isAdminRoute && <Navbar />}
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path='/admin' element={<AdminLayout />} >
             <Route index element={<Dashboard />} />
             <Route path="add-posts" element={<AddPosts />} />
@@ -30,8 +45,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
-        <Footer />
-      </Router>
+       {!isAdminRoute && <Footer />}
     </>
   )
 }
