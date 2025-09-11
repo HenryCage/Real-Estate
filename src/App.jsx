@@ -10,6 +10,7 @@ import ViewPosts from "./Admin-Pages/View-posts";
 import Footer from "./User-Pages/Footer/Footer";
 import Navbar from "./Components/Navbar";
 import Properties from "./User-Pages/Projects/Project";
+import PropertyDetail from "./User-Pages/Details/propertydetail";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const Main = () => {
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/properties/:id" element={<PropertyDetail />} />
         </Routes>
         {!isAdminRoute && <Footer />}
     </>
