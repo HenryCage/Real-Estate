@@ -13,10 +13,11 @@ const Navbar = () => {
       {/* <div class="nav-wrapper">
   <div class="nav-inner"> */}
      <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-       <Link to="/">Home</Link>
+       <Link to="/">HOME</Link>
+       <Link to="'/admin">MY ADMIN</Link>
         <Link to="/about">ABOUT US</Link>
         <Link to="/projects">PROJECTS</Link>
-        <Link to="/contact">CONTACT US</Link>
+        <Link to="/contact">CONTACT</Link>
       </div>
  
      <div className="call">
