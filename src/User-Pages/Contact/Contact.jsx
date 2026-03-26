@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./Contact.css";
 import MapCard from "./FAQ/MapCard";
 import ContactInfoCard from "./ContactInfoCard";
 import ContactForm from "./ContactForm";
